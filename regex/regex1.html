@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi voluptas vel voluptatem ipsum iure, dolorem ab quaerat, doloribus unde ipsa, consequuntur nam totam molestias ratione officiis eius exercitationem pariatur corrupti.</p>
+    <script>
+        //정규식 작성하기
+        //패턴 작성
+       // const regex = /do/;
+        const regex = new RegExp("do");
+       //패턴을 적용할 문자열 가져오기
+        let p1 = document.querySelector("p").innerText;
+        //패턴적용
+        console.log(p1.match(regex));
+        
+    </script>
+</body>
+</html>
